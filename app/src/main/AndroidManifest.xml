@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.us.srs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/iconn"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+        <activity
+            android:name=".activity.RetrieveActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+        <activity
+            android:name=".activity.NextRetrieveActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+        <activity
+            android:name=".activity.NewsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+        <activity
+            android:name=".activity.SellOutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BuyInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BrowseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddItemActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ItemDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddSellOutItemActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AssetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FreeflowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddFreeflowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.EditFreeflowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.StockInfoByNameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.StockInfoByDateActivity"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>
