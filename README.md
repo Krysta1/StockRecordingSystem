@@ -7,6 +7,6 @@
 - add stocks to the favorite list.
 - add transaction.
 - show the stocks' details and news.
-- add and editting notebooks.
+- add and edit notebooks.
 
 It just is an app demo, can not be use to real trade.
